@@ -1,0 +1,23 @@
+ <div class="flex items-center justify-center h-screen">  
+<%= form_with(url: sessions_path) do |form| %>
+
+  <div class="flex items-center justify-center">
+    <%= form.label :login, required: true  %>
+  </div>  
+    <div class="flex items-center justify-center ">
+    <%= form.text_field :login, required: true, class: "rounded-2xl" %>
+  </div>
+
+  <div class="flex items-center justify-center ">
+    <%= form.label :password %>
+    </div>
+      <div class="flex items-center justify-center ">
+    <%= form.password_field :password, required: true, class: "rounded-2xl"%>
+  </div>
+  <div class="flex items-center justify-center ">
+    <%= form.submit %>
+  </div>
+
+  
+<% end %>
+</div>

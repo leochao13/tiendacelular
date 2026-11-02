@@ -1,0 +1,35 @@
+motorola:
+  name: motorola
+
+huawei:
+  name: huawei
+
+Xiaomi:
+  name: xiaomi
+
+apple:
+  name: apple
+
+oppo:
+  name: oppo
+
+Vivo:
+  name: vivo
+
+asus:
+  name: asus
+
+nokia:
+  name: nokia
+
+razer:
+  name: razer
+
+zte:
+  name: zte
+
+alcatel:
+  name: alcatel
+
+sony:
+  name: sony

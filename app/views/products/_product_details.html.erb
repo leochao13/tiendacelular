@@ -1,0 +1,14 @@
+<div id="<%= dom_id(product) %>">
+  <%= image_tag product.photo, width: 200 if product.photo.attached? %>
+
+  <h1 class='title'><%= product.title %></h1>
+
+  <p class='description'><%= product.description %></p>
+
+  <span class='price'><%= product.price %>$</span>
+    <%= form_with(url: cart_add_path) do |f| %>
+      <%= f.hidden_field :id, value: product.id %>
+      <%= f.number_field :quantity, value: 0, min: 1, class: "rounded-2xl" %>
+      <%= f.submit "Add To Cart" %>
+    <% end %>
+</div>

@@ -1,0 +1,34 @@
+<div class="flex items-center justify-center h-screen">  
+<%= form_with(model: @user) do |form| %>
+  <% @user.errors.full_messages.each do |error| %>
+    <div>
+      <%= error %>
+    </div>
+  <% end %>
+
+  <div class="flex justify-center">
+    <%= form.label :email %>
+    </div>  
+    <div class="flex justify-center">
+    <%= form.email_field :email, required: true, class: "rounded-2xl border-gray-200 mb-4 "%>
+  </div>
+
+  <div class="flex justify-center">
+    <%= form.label :username %>
+    </div>  
+    <div class="flex justify-center">
+    <%= form.text_field :username, required: true, class: "rounded-2xl border-gray-200 mb-4 " %>
+  </div>
+
+  <div class="flex justify-center">
+    <%= form.label :password %>
+    </div>  
+    <div class="flex justify-center">
+    <%= form.password_field :password, required: true, class: "rounded-2xl border-gray-200 mb-4 "%>
+  </div>
+
+  <div class="flex justify-center">
+    <%= form.submit %>
+  </div>
+<% end %>
+</div>

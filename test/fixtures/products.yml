@@ -1,0 +1,189 @@
+
+motorola:
+  title: Moto G84
+  description: 5G
+  price: 5999
+  category: motorola
+  user: paco
+
+motorola:
+  title: Moto G42
+  description: 128GB
+  price: 3172
+  category: motorola
+  user: paco  
+
+motorola:
+  title: Moto G52
+  description: 256GB 
+  price: 3260
+  category: motorola
+  user: paco
+
+huawei:
+  title: huawei P30 
+  description: Lite
+  price: 3949
+  category: huawei
+  user: paco
+
+huawei_1: 
+  title: Nova 11i
+  description: 8GB
+  price: 5999
+  category: huawei
+  user: paco
+
+xiaomi_1:
+  title: xiaomi Redmi Note 
+  description: 12S
+  price: 4099
+  category: xiaomi
+  user: maria
+
+xiaomi:
+  title: xiaomi Redmi10 
+  description: 8GB
+  price: 3299
+  category: xiaomi
+  user: paco
+
+xiaomi:
+  title: xiaomi Redmi Note 13
+  description: 512GB
+  price: 7546
+  category: xiaomi
+  user: paco
+
+apple:
+  title: !phone 14 PRO
+  description: 128GB
+  price: 28999
+  category: apple
+  user: paco
+
+apple:
+  title: !phone 14 PRO
+  description: 256GB
+  price: 23999
+  category: apple
+  user: pepe
+
+apple:
+  title: !phone 11 PRO
+  description: 128GB
+  price: 9999
+  category: apple
+  user: pepe
+
+oppo:
+  title: oppo a17
+  description: 128GB 
+  price: 3499
+  category: oppo
+  user: pepe
+
+oppo:
+  title: oppo reno 7
+  description: 128GB 
+  price: 2899
+  category: oppo
+  user: maria
+
+oppo:
+  title: oppo Find
+  description: 5G 
+  price: 3466
+  category: oppo
+  user: maria
+
+vivo:
+  title: vivo y53s
+  description: 128GB
+  price: 2800
+  category: vivo
+  user: maria
+
+vivo:
+  title: vivo y11s
+  description: 32GB 
+  price: 2588
+  category: vivo
+  user: paco
+
+vivo:
+  title: vivo y36
+  description: 256GB 
+  price: 6999
+  category: vivo
+  user: paco
+
+asus:
+  title: Asus ROG7
+  description: 16GB
+  price: 20500
+  category: asus
+  user: paco
+
+asus:
+  title: Asus ROG 6 dual
+  description: 256GB
+  price: 20500
+  category: asus
+  user: pepe
+
+asus:
+  title: Asus ROG 6D
+  description: Gaming Phone
+  price: 4300
+  category: asus
+  user: pepe
+
+nokia:
+  title: nokia X30
+  description: 256GB
+  price: 1139
+  category: nokia
+  user: pepe
+
+nokia:
+  title: nokia C20
+  description: 32GB
+  price: 1299
+  category: nokia
+  user: pepe
+
+nokia:
+  title: nokia G21
+  description: 128GB
+  price: 3800
+  category: nokia
+  user: maria
+
+razer:
+  title: razer 40 ultra
+  description: 512Gb
+  price: 15200
+  category: razer
+  user: maria
+
+zte:
+  title: zte axon 50lite
+  description: 256GB
+  price: 2999
+  category: zte
+  user: maria
+
+alcatel:
+  title: alcatel 
+  description: 32GB
+  price: 4000
+  category: alcatel
+  user: paco
+  
+sony:
+  title: sony xperia
+  description: 128GB
+  price: 5338
+  category: sony
+  user: paco
